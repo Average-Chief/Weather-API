@@ -1,0 +1,46 @@
+input[type="text"], 
+textarea {
+    width: 100%;
+    padding: 10px;; /* Dark border */
+    border-radius: 5px; /* Rounded corners for the fields */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    font-size: 16px;
+    font-family: inherit;
+    color: rgb(20, 20, 20);
+    border: 2px solid black;
+}
+textarea {
+    resize: vertical;
+    min-height: 200px;
+}
+::placeholder {
+    color: rgb(128, 125, 125);
+    opacity: 1;
+}
+btn {
+    border: 2px solid #333; 
+    background-color: transparent; 
+    cursor: pointer;
+    outline: none; 
+    /* Typography & Spacing */
+    color: #333; 
+    font-family: inherit;
+    font-size: 12px; 
+    font-weight: 500; 
+    padding: 7px 14px; /* Generous, balanced padding */
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out; 
+}
+.btn:hover {
+    background-color: #f0f0f0; 
+    color: #000;
+}
+.btn:active {
+    background-color: #e5e5e5; 
+}
+.btn:focus-visible {
+    box-shadow: 0 0 0 3px rgba(51, 51, 51, 0.5); 
+}
+.form-group {
+    margin-bottom: 15px;
+}
