@@ -5,7 +5,7 @@ from urllib.parse import quote
 url = os.getenv('BASE_URL')
 api_key=os.getenv('API_KEY')
 
-def fetch_weather_date(location,start_date,end_date):
+def fetch_weather_data(location,start_date,end_date):
     if not url or not api_key:
         raise RuntimeError("Weather API configuration is missing.")
     
