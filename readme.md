@@ -177,3 +177,5 @@ Built with focus on backend fundamentals and practical system design.
 
 
 ⭐ If you found this useful, consider starring the repo!
+
+Project: https://roadmap.sh/projects/blogging-platform-api
